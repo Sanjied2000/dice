@@ -1,0 +1,99 @@
+
+/*font-family: 'Bree Serif', serif;
+font-family: 'Pacifico', cursive;*/
+
+*{
+    background-color: #222831 ;
+    margin-top: 0;
+}
+h1{
+    margin-bottom: 0;
+}
+.top{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    color: yellow;
+    
+}
+.container{
+    padding-top: 1vw;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.firstDicee{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 30vw;
+    height: 30vw;
+    background-color: #00ADB5;
+}
+.secondDicee{
+    
+    display: flex;
+    flex-direction: row;
+    border-radius: 5%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 30vw;
+    height: 30vw;
+    background-color:red;
+}
+.circleBox{
+    justify-content: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column ;
+    margin-left: .8vw;
+}
+.circle{
+    
+    border-radius: 100%;
+    margin: 2vw 2vw 2vw 2vw;
+    width: 5vw;
+    height: 5vw;
+    background-color: white;
+}
+.button_box{
+    margin-top: 1vw;
+    text-align: center;
+}
+button{
+    padding: 20px 40px 20px 40px;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5rem;
+    background-color:green;
+    color: yellow;
+    border-radius: 5px ;
+   
+}
+.player{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.p1,.p2{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    color: #EEEEEE;
+    
+}
+
+@media screen and (max-width: 700px) {
+.top{
+    font-size: 1.5rem;
+}
+.button_box{
+    margin-top: 5vw;
+    
+}
+  }
